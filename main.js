@@ -45,3 +45,10 @@ const changeBackground = function(){
 
 backgroundButton.addEventListener('click', changeBackground)
 
+const picOfDino = document.querySelector('#biggify')
+
+const hoveredImage = function(){
+    picOfDino.style.width = '200px'
+}
+picOfDino.addEventListener('mouseover', hoveredImage)
+
