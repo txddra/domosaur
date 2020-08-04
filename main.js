@@ -24,3 +24,11 @@ const redBorder = function (){
         }
         
     firstDino.addEventListener('click', redBorder)
+
+
+const feathered = document.querySelector('#feathers');
+
+const halfTransparent = function(){
+    feathered.style.opacity = '50%';
+}
+feathered.addEventListener('click', halfTransparent);
