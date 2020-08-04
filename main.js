@@ -9,3 +9,12 @@ hiddenSaur.style.display ='none';
 
 const firstDino = document.querySelector('#triceratops');
 firstDino.style.width ='324px'
+
+
+const makeItOrange = function(){
+
+    sizeSpan.style.color = 'orange';
+    };
+    
+    sizeSpan.addEventListener('click', makeItOrange);
+    
