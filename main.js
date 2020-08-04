@@ -18,3 +18,9 @@ const makeItOrange = function(){
     
     sizeSpan.addEventListener('click', makeItOrange);
     
+
+const redBorder = function (){
+    firstDino.style.border ='thick solid red';
+        }
+        
+    firstDino.addEventListener('click', redBorder)
